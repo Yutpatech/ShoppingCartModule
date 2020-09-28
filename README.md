@@ -9,5 +9,4 @@ Products: [ <br>
   title: (STRING)(REQUIRED), <br>
   price: (NUMBER)(REQUIRED),<br>
   stock: (NUMBER)(REQUIRED),<br>
-  }<br>
-]
+  }]
