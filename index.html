@@ -31,7 +31,8 @@
             :done="done"
             >
         </Shoppingcart>
-        <Addtocart 
+        <div style="margin-top:1rem; display: flex;justify-content: space-between;">
+           <Addtocart 
             :addnew="isChange"
             :cartitems="cartitems" 
             v-for="item in products" 
@@ -39,8 +40,9 @@
             :productid="item.id" 
             background="#2365A4" 
             color="white">
-            Sepete Ekle
-        </Addtocart>
+            Sepete Ekle (Product{{item.id}})
+            </Addtocart> 
+        </div>
     </div>
 </body>
 </html>
