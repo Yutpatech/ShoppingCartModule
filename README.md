@@ -5,9 +5,9 @@ Vue.js shopping card and add to card button
 # Variables
 Products: [ <br>
   {<br>
-  id: 0(REQUIRED) ,<br>
-  title: 'Title'(REQUIRED), <br>
-  price: 100(REQUIRED),<br>
-  stock: 150(REQUIRED),<br>
+  id: (NUMBER)(REQUIRED) ,<br>
+  title: (STRING)(REQUIRED), <br>
+  price: (NUMBER)(REQUIRED),<br>
+  stock: (NUMBER)(REQUIRED),<br>
   }<br>
 ]
