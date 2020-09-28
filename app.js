@@ -183,7 +183,7 @@ props:{
                 if(isProduct[0].stock>isItem[0].piece){
                     isItem[0].piece+=addItem.piece;
                 }else{
-                    alert("Yeterli stok yok");
+                   alert("Max: "+isProduct[0].stock);
                 }
             }else{
                 let object = { id: addItem.id, piece: addItem.piece };
