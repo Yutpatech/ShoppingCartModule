@@ -204,7 +204,7 @@ props:{
           required: true
       },
       piece: {
-          typr: Number,
+          type: Number,
           default: 1
       },
       background:{
