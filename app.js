@@ -201,7 +201,7 @@ props:{
       },
       productid: {
           type: Number,
-          required: true
+          required: false
       },
       piece: {
           type: Number,
