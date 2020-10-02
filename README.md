@@ -9,7 +9,7 @@ Products: [
   ...
 ]
 ```
-# New Vue
+# Vue Variables
 ```
 el: '#app',
 data: {
