@@ -101,6 +101,6 @@
   }
     @media  screen and (max-width: 750px) {
         .modal-container{
-max-width: 90%;
-} 
+            max-width: 90%;
+        } 
     }
